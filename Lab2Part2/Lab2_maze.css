@@ -117,3 +117,8 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
   background-color: red;
   color: red;
 }
+
+div .youWin{
+  background-color: green;
+  color: green;
+}
