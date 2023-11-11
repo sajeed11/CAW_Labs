@@ -1,3 +1,4 @@
-import mean from './notation.js';
+// import mean function from notation.js 
+const mean = require('./notation.js');
 
-mean([10, 20, 30]);
+mean([1, 2, 3, 4, 5]); // 3
