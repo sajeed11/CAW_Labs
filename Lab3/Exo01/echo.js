@@ -9,3 +9,5 @@ function exf(s, n) {
 exf("echo", 5);
 
 exf("JS from server", 10);
+
+module.exports = exf;
