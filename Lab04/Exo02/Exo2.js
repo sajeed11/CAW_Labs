@@ -1,11 +1,11 @@
 
 function concatenation() {
-    myColor = ["Red", "Green", "White", "Black"];
-    console.log(myColor.toString());
-    console.log(myColor.join());
-    console.log(myColor.join(""));
-
-    return myColor.toString();
+  myColor = ["Red", "Green", "White", "Black"];
+  console.log(myColor.toString());
+  console.log(myColor.join());
+  console.log(myColor.join(""));
 }
 
-exports.module = concatenation;
+//concatenation();
+
+module.exports = concatenation;
