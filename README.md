@@ -1,10 +1,10 @@
 # Repo for CAW exercises
 
-**Kezouz Ala Dine**  
-🐱 [GitHub Icon](link-to-kezouz-github) | [LinkedIn Icon](link-to-kezouz-linkedin)
+**Kezzouz Ala Eddine**  
+🐱 
 
 **Nemli Sadjed**  
-🐱 [GitHub Icon](link-to-nemli-github) | [LinkedIn Icon](link-to-nemli-linkedin)
+🐱 
 
 Group 02
 
