@@ -8,6 +8,18 @@ const Taskdetails = (props) => {
                 <i className="material-icons">delete</i>
                 <i className="material-icons">favorite</i>
             </div >
+            <div className="subtasks">
+                {props.task.subTasks.map(subtask => (
+                    <div className="subtask" key={subtask.id}>
+                        <h3>{subtask.name}</h3>
+                        <p>{subtask.taskdesc}</p>
+                        <div className="icons">
+                            <i className="material-icons">delete</i>
+                            <i className="material-icons">favorite</i>
+                        </div >
+                    </div>
+                ))}
+                </div>
       </div>
   )
 }
