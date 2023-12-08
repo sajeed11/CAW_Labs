@@ -68,13 +68,14 @@ form input {
 }
 .task {
   padding: 6px 20px;
-  background: #fff;
+  background: #e7e7e7;
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .task h3, .task .icons {
   display: inline-block;
@@ -111,4 +112,89 @@ form input {
 }
 .filter button:hover {
   background: #eee;
+}
+
+.task-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.task-main .task-name{
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.subTask-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 75px;
+}
+
+.subTask {
+  padding: 6px 20px;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.subTask li{
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.subTask .subTask-text{
+  display: inline-block;
+  align-items: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.subTask-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 25%;
+}
+
+.subTask .done-btn{
+  background: #ffd859;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
 }
