@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Task from './Task'
 import NewTaskForm from './NewTaskForm'
-import '../App.css'
+import '../App.css';
 
 const TaskList = () => {
     const [tasks, setTasks] = useState([]);
@@ -34,7 +34,7 @@ const TaskList = () => {
         setTasks(updatedTasks);
     };
     return (
-        <>
+        <div data-testid="task-list">
             <div className='new-task-form'>
                 <NewTaskForm addTask={addTask} />
             </div>
@@ -53,7 +53,7 @@ const TaskList = () => {
                     ))}
                 </ul>
             </div>
-        </>
+        </div>
     )
 }
 
